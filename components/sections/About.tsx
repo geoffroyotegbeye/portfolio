@@ -9,8 +9,8 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative aspect-square rounded-lg overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=800"
-              alt="Portrait"
+              src="/portfolio.jpeg"
+              alt="Geoffroy Otegbeye"
               fill
               className="object-cover"
             />

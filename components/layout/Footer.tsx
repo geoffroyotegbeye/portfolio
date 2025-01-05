@@ -41,25 +41,25 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <div className="space-y-4">
               <Link 
-                href="https://github.com" 
+                href="https://github.com/geoffroyotegbeye" 
                 className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Github className="h-5 w-5" />
                 GitHub
               </Link>
               <Link 
-                href="https://linkedin.com" 
+                href="https://bj.linkedin.com/in/geoffroy-otegbeye-287038247" 
                 className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Linkedin className="h-5 w-5" />
                 LinkedIn
               </Link>
               <Link 
-                href="mailto:contact@example.com" 
+                href="mailto:otegbeyegeoffroy@gmail.com" 
                 className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Mail className="h-5 w-5" />
-                contact@example.com
+                otegbeyegeoffroy@gmail.com
               </Link>
             </div>
           </div>
