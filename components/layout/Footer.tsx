@@ -16,22 +16,22 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Navigation</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#about" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="#about" className="text-muted-foreground hover:text-foreground transition-colors" target="_blank">
                   À propos
                 </Link>
               </li>
               <li>
-                <Link href="#skills" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="#skills" className="text-muted-foreground hover:text-foreground transition-colors" target="_blank">
                   Compétences
                 </Link>
               </li>
               <li>
-                <Link href="#portfolio" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="#portfolio" className="text-muted-foreground hover:text-foreground transition-colors" target="_blank">
                   Portfolio
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="#contact" className="text-muted-foreground hover:text-foreground transition-colors" target="_blank">
                   Contact
                 </Link>
               </li>
@@ -40,24 +40,15 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <div className="space-y-4">
-              <Link 
-                href="https://github.com/geoffroyotegbeye" 
-                className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
-              >
+              <Link href="https://github.com/geoffroyotegbeye" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors" target="_blank">
                 <Github className="h-5 w-5" />
                 GitHub
               </Link>
-              <Link 
-                href="https://bj.linkedin.com/in/geoffroy-otegbeye-287038247" 
-                className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
-              >
+              <Link href="https://bj.linkedin.com/in/geoffroy-otegbeye-287038247" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors" target="_blank">
                 <Linkedin className="h-5 w-5" />
                 LinkedIn
               </Link>
-              <Link 
-                href="mailto:otegbeyegeoffroy@gmail.com" 
-                className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
-              >
+              <Link href="mailto:otegbeyegeoffroy@gmail.com" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors" target="_blank">
                 <Mail className="h-5 w-5" />
                 otegbeyegeoffroy@gmail.com
               </Link>
